@@ -1,0 +1,6 @@
+flask
+python-dotenv
+langchain-anthropic
+langchain-core
+sentence-transformers
+chromadb
