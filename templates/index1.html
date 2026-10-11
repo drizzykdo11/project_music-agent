@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+    <style>
+        h1{
+            color:red;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>This is a paragraph of text.</p>
+
+    <form action="/ask" method="POST">
+        <input type="text" name="question" placeholder="Enter your question">
+        <button type="submit">Submit</button>
+    </form>
+    {% if answer %}
+    <p><strong>Question:</strong>{{ question }}</p>
+    <p><strong>Answer:</strong>{{ answer }}</p>
+    {% endif %}
+
+</body>
+</html>
