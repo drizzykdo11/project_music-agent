@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 from langchain_anthropic import ChatAnthropic
-from rag2 import retrieve
+from rag import retrieve
 from tool import note_duration_ms
 
 load_dotenv()
